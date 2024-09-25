@@ -1,32 +1,38 @@
 // Write your solution in this file!
 var customerName = "bob"
 // console.log(customerName)
-upperCaseCustomerName(customerName)
+// upperCaseCustomerName(customerName)
 
-function upperCaseCustomerName(cn){
-    var results = cn
+function upperCaseCustomerName(){
+    // var results = cn
     // var results =cn.toUpperCase()
     // return results
     
-    var r =(results.toUpperCase())
-    console.log(r)
-    return r
+    // var r =(results.toUpperCase())
+    // console.log(r)
+     newname =customerName.toUpperCase()
+    console.log(newname)
+    return newname
     // return (results.toUpperCase())
     
 
 
 }
-setBestCustomer()
+upperCaseCustomerName()
+
+// setBestCustomer()
+var bestCustomer = ("")
 
 function setBestCustomer(){
 
-    var bestCustomer = "not bob"
+    bestCustomer = "not bob"
     return bestCustomer
 }
+setBestCustomer()
 // console.log(setBestCustomer())
 // console.log(bestCustomer)
 
-function overwriteBestCustomer(bestCustomer){
+function overwriteBestCustomer(){
     return bestCustomer = "maybe bob"
 
 }
@@ -34,10 +40,10 @@ overwriteBestCustomer()
 
 const leastFavoriteCustomer = "cow"
 
-function changeLeastFavoriteCustomer(x){
-    x = "chicken"
-    return x
+function changeLeastFavoriteCustomer(){
+    leastFavoriteCustomer = "chicken"
+    return leastFavoriteCustomer
 
 }
 
-changeLeastFavoriteCustomer(leastFavoriteCustomer)
+changeLeastFavoriteCustomer()
